@@ -1,238 +1,333 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Pav G - Student Developer</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144x144-precomposed.png">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+  <script src="js/vendor/jquery.hashchange.min.js"></script>
+  <script src="js/vendor/jquery.easytabs.min.js"></script>
 
-    <title>Pav G-Student Developer</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
-    <!-- Theme CSS -->
-    <link href="css/creative.min.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+  <script src="js/main.js"></script>
+  <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+      <![endif]-->
 </head>
-
-<body id="page-top">
-
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Pav G - Student Developer</a>
+  <body class="bg-fixed bg-1">
+<!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+   <div class="main-container">
+    <div class="main wrapper clearfix">
+      <!-- Header Start -->
+        <header id="header">
+            <div id="logo">
+                <h2>
+                    Pav G
+                </h2>
+                <h4>
+                    Student Developer
+                </h4>
             </div>
+        </header>
+        <!-- Header End -->
+        <!-- Main Tab Container -->
+        <div id="tab-container" class="tab-container">
+          <!-- Tab List -->
+            <ul class='etabs'>
+                <li class='tab' id="tab-about">
+                  <a href="#about"><i class="icon-user"></i><span> About Me</span></a>
+                </li>
+                <li class='tab'>
+                  <a href="#resume"><i class="icon-file-text"></i><span> Experience </span></a>
+                </li>
+                
+                <li class='tab'>
+                  <a href="#contact"><i class="icon-envelope"></i><span> Contact Me</span></a>
+                </li>
+            </ul>
+          <!-- End Tab List -->
+            <div id="tab-data-wrap">
+              <!-- About Tab Data -->
+                <div id="about">
+                    <section class="clearfix">
+                        <div class="g2">
+                            <div class="photo">
+                                <img src="https://pbs.twimg.com/profile_images/867865919644733449/sIwo-ken_400x400.jpg" alt="Pav G">
+                            </div>
+                            <div class="info">
+                                <h2>
+                                    Pav G
+                                </h2>
+                                <h4>
+                                    Student Developer
+                                </h4>
+                                <p>
+                                    A strong tech enthusiast, whose owned every iDevice since the inception of the iPhone! I’m an Apple Fanboy, who loves Android! Give me a Mac and I’ll program the life out of it! 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="g1">
+                            <div class="main-links sidebar">
+                                <ul>
+                                    <li>
+                                        <a href="#resume">Experience with Software</a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="#contact">Let's Start A Software Development Project</a>
+                                    </li>
+                                    <li>
+                                        <a href="#studentdeveloper">Student Developer</a>
+                                    </li>
+                                    <li>
+                                        <a href="#Pav">Designed by Pav G</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="break"></div>
+                        <div class="contact-info">
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <i class="icon-envelope"></i>
+                              <div class="item-data">
+                                <h3><a href="mailto:pav@gaddu.co.uk">pav@gaddu.co.uk</a></h3>
+                                <p>Email Address</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <i class="icon-facebook"></i>
+                              <div class="item-data">
+                                <h3><a href="https://twitter.com/tech108_">@tech108_</a></h3>
+                                <p>Twitter</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <i class="icon-twitter"></i>
+                              <div class="item-data">
+                                <h3><a href="https://github.com/pavg1">@pavg1</a></h3>
+                                <p>GitHub</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </section><!-- content -->
+                </div>
+              <!-- End About Tab Data -->
+              <!-- Resume Tab Data -->
+                <div id="resume">
+                    <section class="clearfix">
+                        <div class="g2">
+                            <h3>
+                                Experience (Modules): 
+                            </h3>
+                            <ul class="no-list work">
+                                <li>
+                                    <h5>
+                                        Software Engineering & Functional Programming
+                                    </h5><span class="label label-info">2016-Present</span>
+                                    <p>
+                                        
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Networking & Information Systems
+                                    </h5><span class="label label-info">2017-Present</span>
+                                    <p>
+                                        
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Designing/ Using Databases & Data Structures 
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+                                    </h5><span class="label label-info">2016-Present</span>
+                                    <p>
+                                       
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                       IT Security 
+                                    </h5><span class="label label-info">2017-Present</span>
+                                    <p>
+                                        
+                                    </p>
+                                </li>
+                            </ul>
+                            <h3>
+                                Education
+                            </h3>
+                            <ul class="no-list work">
+                                <li>
+                                    <h5>
+                                        COVENTRY UNIVERSITY
+                                    </h5><span class="label label-success">2016-Present</span>
+                                    <p>
+                                        Currently studying IT Engineering at Coventry University. Current Average: 70%. (1st Class) 
+Expected to Graduate in July 2019. 
+                                    </p>
+                                </li>
+                                
+                                <Li>
+                                <h5>
+                                        LORDSWOOD SIXTH FORM CENTRE
+                                   
+                             </h5><span class="label label-success">2014-2016</span>
+                                    <p>
+                                        A Levels:
+                                        Specialised in: Engineering (A*), I.T (A*), Business Studies (A*)
 
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1 id="homeHeading">Supervision of Software Development Projects, I.T Consultancy, Open Source Enthusiast</h1>
-                <hr>
-                <p>A strong tech enthusiast, whose owned every iDevice since the inception of the iPhone! I’m an Apple Fanboy, who loves Android! Give me a Mac and I’ll program the life out of it!
-</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">More About Me!</a>
-            </div>
-        </div>
-    </header>
 
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
-                    <hr class="light">
-                    <p class="text-faded">Hey, I’m Pav! I’m a 20-year-old university student from the UK, currently on a mission to complete as many programming languages as one can physically handle. My interests include Cybersecurity, Computer Science & Technology.
-</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Keep Scrolling!</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>Open Source</h3>
-                        <p class="text-muted">Currently working with various versions of Linux, namely; Ubuntu, Debian & Kali Linux.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>API's</h3>
-                        <p class="text-muted">All student projects are hosted on my GitHub Account!</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Coding</h3>
-                        <p class="text-muted">I Program in HTML,CSS,JavaScript & SQL .</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Ask A Question</h3>
-                        <p class="text-muted">Follow me via Twitter @tech108_</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="http://bit.ly/2spue5W" class="portfolio-box">
-                        <img src="http://bit.ly/2spue5W" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Apple
+                                    </p>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                        <div class="g1">
+                            <div class="sidebar">
+                                <h3>
+                                    Skills
+                                </h3>
+                                <h5>
+                                    Software
+                                </h5>
+                                <div class="meter emerald">
+                                    <span style="width: 33.3%"><span>Photoshop</span></span>
                                 </div>
-                                <div class="project-name">
-                                    Logo
+                                <div class="meter carrot">
+                                    <span style="width: 90%"><span>Ubuntu/Debian</span></span>
+                                </div>
+                                <div class="meter wisteria">
+                                    <span style="width: 60%"><span>InDesign</span></span>
+                                </div>
+                                <div class="meter sunflower">
+                                    <span style="width: 89%"><span>macOS</span></span>
+                                </div>
+                                <div class="meter midnight">
+                                    <span style="width: 70%"><span>Dreamweaver</span></span>
+                                </div>
+                                <div class="meter pomengrate">
+                                    <span style="width: 100%"><span>Microsoft Office</span></span>
+                                </div>
+                                <div class="meter asbestos">
+                                    <span style="width: 65%"><span>Linux</span></span>
+                                </div>
+                                <div class="break"></div>
+                                <h5>
+                                    Design
+                                </h5>
+                                <div class="meter emerald">
+                                    <span style="width: 79%"><span>User Interface</span></span>
+                                </div>
+                                <div class="meter carrot">
+                                    <span style="width: 90%"><span>Microsoft Access</span></span>
+                                </div>
+                                <div class="meter wisteria">
+                                    <span style="width: 89%"><span>Web Applications</span></span>
+                                </div>
+                                <div class="break"></div>
+                                <h5>
+                                    Programming Language
+                                </h5>
+                                <div class="meter emerald">
+                                    <span style="width: 95%"><span>HTML/CSS</span></span>
+                                </div>
+                                <div class="meter carrot">
+                                    <span style="width: 80%"><span>PHP/MySQL</span></span>
+                                </div>
+                                <div class="meter wisteria">
+                                    <span style="width: 95%"><span>jQuery/JavaScript</span></span>
+                                </div>
+                                <div class="meter sunflower">
+                                    <span style="width: 75%"><span>Java</span></span>
+                                </div>
+                                <div class="meter asbestos">
+                                    <span style="width: 82%"><span>Python</span></span>
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    </section>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="http://bit.ly/2spMr2Y" class="portfolio-box">
-                        <img src="http://bit.ly/2spMr2Y" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Coding
-                                </div>
-
-                                <div class="project-name">
-                                    Atom
-                                </div>
+              <!-- End Resume Tab Data -->
+              <!-- Portfolio Tab Data -->
+                
+              <!-- End Portfolio Data -->
+              <!-- Contact Tab Data -->
+                <div id="contact">
+                    <section class="clearfix">
+                       <div class="g1">
+                         <div class="sny-icon-box">
+                           <div class="sny-icon">
+                              <i class="icon-globe"></i>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="http://bit.ly/2sPvwoe" class="portfolio-box">
-                        <img src="http://bit.ly/2sPvwoe" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    iOS
-                                </div>
-                                <div class="project-name">
-                                    Devices
-                                </div>
+                            <div class="sny-icon-content">
+                              <h4>E Mail</h4>
+                              <p><a href="mailto:pav@gaddu.co.uk">pav@gaddu.co.uk</a></p>
                             </div>
-                        </div>
-                    </a>
+                         </div>
+                       </div>
+                       <div class="g1">
+                         <div class="sny-icon-box">
+                           <div class="sny-icon">
+                              <i class="icon-phone"></i>
+                            </div>
+                            <div class="sny-icon-content">
+                              <h4>Twitter</h4>
+                              <p3><a href="https://twitter.com/tech108_">@tech108_</a></p3>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="g1">
+                         <div class="sny-icon-box">
+                           <div class="sny-icon">   
+                              <i class="icon-user"></i>
+                            </div>
+                            <div class="sny-icon-content">
+                              <h4>GitHub</h4>
+                              <p><a href="https://github.com/pavg1">Project Contributions</a><p>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="break"></div>
+                       
+                    </section>
                 </div>
-
-
-
-
-
-
-
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>Ready to start a software development project? That's great! Drop me a message! </p>
-                </div>
-
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>Message me on Github or Social Media Accounts for point of contact</p>
-                </div>
-
-
-
-
-
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="https://twitter.com/tech108_"></a> @tech108_</p>
-                </div>
+              <!-- End Contact Data -->
             </div>
         </div>
-    </section>
+        <!-- End Tab Container -->
+        <footer>
+            <p>
+                Designed By Pav G
+            </p>
+        </footer>
+    </div><!-- #main -->
+</div><!-- #main-container -->
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/creative.min.js"></script>
 
 </body>
-
 </html>
